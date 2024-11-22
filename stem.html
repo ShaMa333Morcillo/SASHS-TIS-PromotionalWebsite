@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <style>
+  body {
+    background-color: darkgreen;
+  }
+  .stem{
+    color: black;
+    font-family: serif;
+    font-size: 70px;
+    text-align: center;
+    top: 100px;
+    animation: fadeIn 2s ease-in;
+    background-image: url(stem.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+      }
+  @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; } }
+  .overview{
+    font-size: 40px;
+    font-family: serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+  }
+  .advantage,.course, .act{
+    font-size: 50px;
+    font-family: serif;
+    color: #ffffff;
+  }
+  .bullet,.co{
+    font-size: 40px;
+    font-family: serif;
+    color: #ffffff;
+    text-align: left;
+    padding: 25px;
+  }
+  button{
+    font-size: 40px;
+    background-color: #ffff99;
+    padding: 10px 50px;
+  }
+  .slideshow-container {
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+        }
+        .slide {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            opacity: 0;
+            animation: slide-animation 12s infinite;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .slide:nth-child(1) { animation-delay: 0s; }
+        .slide:nth-child(2) { animation-delay: 4s; }
+        .slide:nth-child(3) { animation-delay: 8s; }
+        @keyframes slide-animation {
+            0% { opacity: 0; transform: translateX(100%); }
+            10%, 30% { opacity: 1; transform: translateX(0); }
+            40% { opacity: 0; transform: translateX(-100%); }
+            100% { opacity: 0; }
+        }
+        .slide img {
+            width: 900px;
+            height: 700px;
+            object-fit: cover;
+        }
+  </style>
+</head>
+<body>
+  <p class="stem"><b>SCIENCE TECHNOLOGY ENGINEERING and MATHEMATICS</b></p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p class="overview">The STEM strand is designed to prepare students for careers in science,technology,engineering and mathematics</p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p class="advantage">It offers several benefits, including:</p>
+  <p class="bullet">Developing critical thinking and problem-solving skills</p>
+  <p class="bullet">Preparing students for careers in STEM fields</p>
+  <p class="bullet">Fostering innovation and creativity </p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p class="act">Some Activities:</p> 
+  <br>
+  <br>
+  <br>
+      <div class="slideshow-container">
+        <div class="slide">
+          <img src="mama1.jpg" alt="image">
+        </div>
+        <div class="slide">
+          <img src="mama2.jpg" alt="image">
+        </div>
+        <div class="slide">
+          <img src="mama3.jpg" alt="image">
+        </div>
+        <div class="slide">
+          <img src="mama4.jpg" alt="image">
+        </div>
+      </div>
+  <p class="course">Prepares students for various college courses, such as:</p>
+  <p class="co">✓Bachelor of science in Engineering</p>
+  <p class="co">✓Bachelor of sciencein Computer Science</p>
+  <p class="co">✓Bachelor of science in Mathematics</p>
+  <br>
+  <br>
+  <div class="slideshow-container">
+        <div class="slide">
+          <img src="engineering.jpg" alt="image">
+        </div>
+        <div class="slide">
+          <img src="computerscience.jpg" alt="image">
+        </div>
+        <div class="slide">
+          <img src="mathematics.jpg" alt="image">
+        </div>
+      </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <button><a href="sashs.html">HOME</a></button>
+  <br>
+  <br>
+  <br>
+  <br>
+</body>
+</html>
